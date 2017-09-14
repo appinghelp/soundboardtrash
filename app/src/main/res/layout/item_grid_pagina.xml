@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@android:drawable/dialog_holo_light_frame">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sfondo"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_item_gridview">
+
+        <ImageView
+            android:id="@+id/pref"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ic_star_"
+            android:layout_alignParentRight="true" />
+
+
+
+            <apping.trashsoundboard.AutofitTextView
+                style="@style/TextViewStyle"
+                android:textSize="13sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/testo"
+                android:text="Che sei drogato"
+                android:gravity="center"
+                android:layout_below="@+id/pref"
+                android:layout_above="@+id/topBar"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/topBar"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.3"
+                app:srcCompat="@drawable/ic_share"
+                android:padding="10dp" />
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_notifications_black_24dp"
+                android:id="@+id/ringtone"
+                android:padding="10dp"/>
+
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/ic_download"
+                android:id="@+id/download"
+                android:padding="10dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

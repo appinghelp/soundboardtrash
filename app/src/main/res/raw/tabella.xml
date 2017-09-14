@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<database>
+	<item>
+		<nome>-</nome>
+		<autore>Kissy</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondokissy</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondosaludaantonio</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Lorenzo Valitutto</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondolorenzovalitutto</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Lesbicah</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondolesbicah</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondo130martingarrix</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Zequila</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondozequila</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondotaxistaromano</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>15+18 quanto fa?</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondo1518quantofa</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>William Solo</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondowilliamsolo</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>L’importante è sbovvare</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondolimportanteesborrare</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Alongi</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondoalongi</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondoenzoposte</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondoviscuoio</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondovedialessio</sfondo>
+	</item>
+	<item>
+		<nome>-</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>-</filesuono>
+		<tipo>autore</tipo>
+		<sfondo>sfondogermanomosconi</sfondo>
+	</item>
+	<item>
+		<nome>118</nome>
+		<autore>Kissy</autore>
+		<filesuono>q118</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Che sei drogato</nome>
+		<autore>Kissy</autore>
+		<filesuono>cheseidrogato</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Che te ne importa</nome>
+		<autore>Kissy</autore>
+		<filesuono>cheteneimporta</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Puttane e froci</nome>
+		<autore>Kissy</autore>
+		<filesuono>puttaneefroci</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Scimmia</nome>
+		<autore>Kissy</autore>
+		<filesuono>scimmia</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Sigaretta</nome>
+		<autore>Kissy</autore>
+		<filesuono>sigaretta</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Sotto il porticato</nome>
+		<autore>Kissy</autore>
+		<filesuono>sottoilporticato</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>11 Novembre</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>q11novembre</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>130 Saluda Antonio</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>q130saludaantoniosivola</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Alla pizzeria Wao</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>allapizzeriawao</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Buonasera</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>buonasera</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Champions League</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>championsleague</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dopo vado esco</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>dopovadoesco</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>E nervoso oggi</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>enervosooggi</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>E niente</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>eniente</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>E questo è tutto</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>equestoetutto</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>E vero signor antonio</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>everosignorantonio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>La bella vita</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>labellavita</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Luna Park</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>lunapark</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Mi faccio una canna</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>mifacciounacanna</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Oggi sono allegro</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>oggisonoallegro</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Questa è la giornata</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>questaelagiornata</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Saluda Antonio</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>saludaantonio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Saluda Antonio 2</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>saludaantonio2</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Saluda Antonio 3</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>saludaantonio3</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Saluda Antonio 4</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>saludaantonio4</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Tutto Bene</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>tuttobene</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Vado All'iper</nome>
+		<autore>Saluda Antonio</autore>
+		<filesuono>vadoalliper</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Cari Ragazzi</nome>
+		<autore>Lorenzo Valitutto</autore>
+		<filesuono>cariragazzi</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Così proprio così</nome>
+		<autore>Lorenzo Valitutto</autore>
+		<filesuono>cosipropriocosi</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Oggi io vi insegnerò a sputare</nome>
+		<autore>Lorenzo Valitutto</autore>
+		<filesuono>oggiioviinsegeroasputare</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Scorreggia</nome>
+		<autore>Lorenzo Valitutto</autore>
+		<filesuono>scorreggia</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Sono andato su facebook</nome>
+		<autore>Lorenzo Valitutto</autore>
+		<filesuono>sonoandatosufacebook</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Che puzzo bruno</nome>
+		<autore>Lesbicah</autore>
+		<filesuono>chepuzzobruno</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Gli posso da un cazzotto</nome>
+		<autore>Lesbicah</autore>
+		<filesuono>glipossodauncazzotto</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Lesbica</nome>
+		<autore>Lesbicah</autore>
+		<filesuono>lesbica</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ma che è ao</nome>
+		<autore>Lesbicah</autore>
+		<filesuono>macheeao</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodio (Spongebob)</nome>
+		<autore>Lesbicah</autore>
+		<filesuono>porcodiospongebob</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodio</nome>
+		<autore>Lesbicah</autore>
+		<filesuono>porcodiox6</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>130</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>q130</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Animal</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>animal</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Bella Raga</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>bellaraga</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio Cane</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>diocane</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Martin Garrix</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>martingarrix</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Mi vado a schiantare</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>mivadoaschiantare</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Oggi ho vinto 30 euro</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>oggihovinto30euro</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Popopoporcodio</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>popopoporcodio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodio</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>porcodio130</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Si vola</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>sivola</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Sto tornando merde</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>stotornandomerde</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Woo</nome>
+		<autore>130 Martin Garrix</autore>
+		<filesuono>woo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Assolutamente</nome>
+		<autore>Zequila</autore>
+		<filesuono>assolutamente</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Cosa ha detto</nome>
+		<autore>Zequila</autore>
+		<filesuono>cosahadetto</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Di nominare mia madre</nome>
+		<autore>Zequila</autore>
+		<filesuono>dinominaremiamadre</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Mai</nome>
+		<autore>Zequila</autore>
+		<filesuono>mai</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Mai più</nome>
+		<autore>Zequila</autore>
+		<filesuono>maipiu</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Non ti permettere</nome>
+		<autore>Zequila</autore>
+		<filesuono>nontipermettere</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ti spacco la faccia</nome>
+		<autore>Zequila</autore>
+		<filesuono>tispaccolafaccia</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ao andrè</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>aoandre</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ho preso una strada</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>hopresounastrada</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>L'accanno ad un altro taxi</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>laccannoadunaltrotaxi</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ma che sto calmo</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>machestocalmo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Madonna mia</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>madonnamia</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Maledetto gesu cristo</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>maledettogesucristo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Mannaggia al sangue de cristo</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>mannaggiaalsanguedecristo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Non so come cazzo torna</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>nonsocomecazzotorna</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodedio in croce</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>porcodedioincroce</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodio1</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>porcodio1</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Taxista Romano</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>porcogesucristo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Qui sto anna verso terni</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>quistoannaversoterni</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Senti Porcodio</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>sentiporcodio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Sta bono Sta bono</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>stabonastabona</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Sto senza nafta</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>stosenzanafta</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Te giuro</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>tegiuro</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Terni</nome>
+		<autore>Taxista Romano</autore>
+		<filesuono>terni</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>15 e 18 quanto fa?</nome>
+		<autore>15+18 quanto fa?</autore>
+		<filesuono>q15e18quantofa</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>20 più 18</nome>
+		<autore>15+18 quanto fa?</autore>
+		<filesuono>qq20p18</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Come fa 18 più 15</nome>
+		<autore>15+18 quanto fa?</autore>
+		<filesuono>comefa18piu15nonfa36</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dioporco</nome>
+		<autore>15+18 quanto fa?</autore>
+		<filesuono>dioporco</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio ti maledica</nome>
+		<autore>15+18 quanto fa?</autore>
+		<filesuono>diotimaledica</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>15 e 17</nome>
+		<autore>15+18 quanto fa?</autore>
+		<filesuono>eee1517o16quantofa</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ma ma porcodio</nome>
+		<autore>15+18 quanto fa?</autore>
+		<filesuono>mamaporcodio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Voglio saper come fai conti</nome>
+		<autore>15+18 quanto fa?</autore>
+		<filesuono>vogliosapercomefaiconti</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ce lo stile di fisico del genere</nome>
+		<autore>William Solo</autore>
+		<filesuono>celostiledifisicodelgenere</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Con uno stile di moto cosi</nome>
+		<autore>William Solo</autore>
+		<filesuono>conunostiledimotocosi</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Cosa Cambia</nome>
+		<autore>William Solo</autore>
+		<filesuono>cosacambia</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Guarda non c'è tanto da vedere</nome>
+		<autore>William Solo</autore>
+		<filesuono>guardanoncetantodavedere</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Perchè si fa questa cosa</nome>
+		<autore>William Solo</autore>
+		<filesuono>perchesifaquestacosa</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Personalizzano Harley</nome>
+		<autore>William Solo</autore>
+		<filesuono>perchesipersonalizzanoleharley</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Può accompagnare solo</nome>
+		<autore>William Solo</autore>
+		<filesuono>puoaccompagnaresolo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Della vita</nome>
+		<autore>L’importante è sbovvare</autore>
+		<filesuono>dellavita</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>L'importante</nome>
+		<autore>L’importante</autore>
+		<filesuono>importante</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>L'importante è sbovvave</nome>
+		<autore>L’importante è sbovvare</autore>
+		<filesuono>limportanteesbovvave</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Sai cos'è</nome>
+		<autore>L’importante è sbovvare</autore>
+		<filesuono>saicose</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Tienilo a mente hombre</nome>
+		<autore>L’importante è sbovvare</autore>
+		<filesuono>tieniloamentehombre</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Sbipoliziotti</nome>
+		<autore>Alongi</autore>
+		<filesuono>sbipoliziotti</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>5 Euro</nome>
+		<autore>Alongi</autore>
+		<filesuono>q5euro</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Bonsu</nome>
+		<autore>Alongi</autore>
+		<filesuono>bonsu</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>C'hai paura un po'</nome>
+		<autore>Alongi</autore>
+		<filesuono>chaipauraunpoquandohaiilfumo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Da un ragazzo</nome>
+		<autore>Alongi</autore>
+		<filesuono>daunragazzo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Era una bella da dio</nome>
+		<autore>Alongi</autore>
+		<filesuono>eraunabelladadio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Manco avesse combattuto</nome>
+		<autore>Alongi</autore>
+		<filesuono>mancoavessecombattuto</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Polizia municipale fa le multe</nome>
+		<autore>Alongi</autore>
+		<filesuono>poliziamunicipalefalemulte</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ricorda da chi ha comprato il fumo</nome>
+		<autore>Alongi</autore>
+		<filesuono>ricordadachihacompratoilfumo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Scimmia uu uu</nome>
+		<autore>Alongi</autore>
+		<filesuono>scimmiauuuu</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Tesserino polizia</nome>
+		<autore>Alongi</autore>
+		<filesuono>tesserinopolizia</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Tira fuori la roba</nome>
+		<autore>Alongi</autore>
+		<filesuono>tirafuorilaroba</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Una roba da vergognosa</nome>
+		<autore>Alongi</autore>
+		<filesuono>unarobadavergognosa</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Buongiorno enzo</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>buongiornoenzo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Che ha detto</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>chehadetto</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>io sono il capo della polizia</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>iosonoilcapodellapolizia</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ma che cazzo te ridi</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>machecazzoteridi</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Maglietta</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>maglietta</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Non dire parolaccie</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>nondireparolaccie</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Parla bene</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>parlabene</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Pedofilo</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>pedofilo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Poste Italiane</nome>
+		<autore>Enzo Poste</autore>
+		<filesuono>posteitaliane</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Adesso vado dai vigili</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>adessovadodaivigili</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dove cazzo è</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>dovecazzoe</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Già pago</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>giapago</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Gli taglio la gola</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>glitagliolagola</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>In varco via brombeix</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>invarcoviabrombeix</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Io a Napoli</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>ioanapoli</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Io passo con la moto</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>iopassoconlamoto</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Lo faccio fuori</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>lofacciofuori</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Mi arriva</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>miarriva</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Napoletani di merda</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>napoletanidimerda</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Non avete il casco</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>nonaveteilcasco</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ora in cui</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>oraincui</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Peccato</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>peccato</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Pezzi di merda</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>pezzidimerda</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Pezzi di merda</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>pezzidimerdaquestavelaficcat</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodio</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>porcodio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Vi scuoio dio merda</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>viscuoiodiomerda</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Voi siete</nome>
+		<autore>Vi Scuoio</autore>
+		<filesuono>voisiete</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ah non lo so io</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>ah_non_lo_so_io</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Avanti en drio</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>avanti_e_n_drio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Avvocato Bisagno</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>avv_bisagno</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Carte co la cola</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>carte_co_la_cola</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Chi è quel mona</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>chi_e_quel_mona</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Chi fa quel rumore li</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>chi_fa_quel_rumore_li</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Chiudi quella porta</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>chiudi_quella_porta</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Come se ciama elo li</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>come_se_ciama_elo_li</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Cosa ghe qua sotto</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>cosa_ghe_qua_sotto</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Cos è caduto</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>cos_e_caduto</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dai va la</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>dai_va_la</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio bono de Dio</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>dio_bono_de_dio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio bubu</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>dio_bubu</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio camaja de Dio</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>dio_camaja_de_dio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio cazzo</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>dio_cazzo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio papapapa</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>dio_pa_pa_pa_pa</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio po Dio</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>dio_po_dio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>dio_porco__dio_cane</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>Dio porco Dio Cane</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio ss</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>dio_ss</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Dio Porco</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>d_p</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>E con questo</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>e_con_questo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Gabriele Sborina</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>gabriele_sborina</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Cos'è sto telefono</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>germano_e_il_telefono</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Il punteggio Dio Cane</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>il_punteggio_dio_cane</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>In primo piano</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>in_primo_piano</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>La società</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>la_societa</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ma che ooooh</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>ma_che_ooooh</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Madonna</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>madonna</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Madonna Puttina</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>madonna_puttinaaaa</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Ma è possibile</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>ma_e_possibile</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Non è possibile</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>non_e_possibile</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>No nessuno</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>no_nessuno</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Nono vai in mona</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>no_no_vai_in_mona</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Non si può scrivere</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>non_si_puo_scrivere</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Orco Dio</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>orco_dio_in_serie</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Passar Davanti</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>passar_davanti</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Pilota Romano Romano</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>pilota_romano_romano</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porca Madonna</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>porca_madonna</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodio 1</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>porco_dio_1</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodio 2</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>porco_dio_2</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Portanna la Madonna</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>portanna_la_madonna</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Se non bestemmio guarda</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>se_non_bestemmio_guarda</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Serie esplosiva</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>serie_esplosiva</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Serrare la porta</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>serrare_la_porta</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Se trovo quello che mi fa innervosire</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>se_trovo_quello</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Se venite avanti vi do un pugno</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>se_venite_avanti_vi_do_un_pugno</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Squadre</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>squadre</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Stronzi</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>stronzi</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Tutto da capo</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>tutto_da_capo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Vaffanculo</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>vaffanculo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Vaffanculo ti e tutti quanti</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>vaffanculo_ti_e_tutti_quanti</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Vai in mona</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>vai_in_mona</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Vedo tutto</nome>
+		<autore>Germano Mosconi</autore>
+		<filesuono>vedo_tytti</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Adesso ti mostro</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>adessotimostro</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Io mo</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>iomo</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Lo vedi</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>lovedi</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Mannaggia quella bestia</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>mannaggiaquellabestia</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Mannaggia quella merda</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>mannaggiaquellamerda</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Merda</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>merda</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodio</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>porcodioalessio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Porcodio de merda</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>porcodiodemerda</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Quindi adesso</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>quindiadesso</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Vado ad accendere</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>vadoadaccendere</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+	<item>
+		<nome>Vedi Alessio</nome>
+		<autore>Vedi Alessio</autore>
+		<filesuono>vedialessio</filesuono>
+		<tipo>suono</tipo>
+		<sfondo>-</sfondo>
+	</item>
+</database>

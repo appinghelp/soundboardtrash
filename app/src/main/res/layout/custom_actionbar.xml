@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_item_mainmenu">
+
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:id="@+id/title_text"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:textAllCaps="false"
+        android:textColor="@color/colorText"
+        android:text="@string/app_name"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="17dp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:paddingRight="45dp"/>
+
+
+</RelativeLayout>

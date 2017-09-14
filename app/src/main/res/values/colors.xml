@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#ffea00</color>
+    <color name="colorPrimary">#7cb342</color>
+    <color name="colorPrimaryDark">#689f38</color>
+
+    <color name="colorEndAccent">#ffc400</color>
+    <color name="colorEndPrimary">#e17cb342</color>
+    <color name="colorText">#212121</color>
+    <color name="scurisci">#46000000</color>
+    <color name="scuriscisfondo">#a0000000</color>
+    <color name="colorMenu">#d7f5f5f5</color>
+    <color name="colorEndMenu">@color/colorEndPrimary</color>
+    <color name="divider">#e0e0e0</color>
+    <color name="colorDivider">#d2212121</color>
+    <color name="colorEndDivider">#212121</color>
+
+</resources>

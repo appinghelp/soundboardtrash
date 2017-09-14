@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+     <RelativeLayout
+         android:id="@+id/box_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:text="Apri all'avvio di una chiamata"
+            style="@style/TextViewStyle"
+            android:layout_toStartOf="@+id/switch_opencall"
+            android:layout_toLeftOf="@+id/switch_opencall"
+            android:gravity="center_vertical"/>
+
+
+        <Switch
+            android:id="@+id/switch_opencall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/box_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_below="@+id/box_1">
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:text="Suggerisci altri autori"
+            style="@style/TextViewStyle"
+            android:layout_toRightOf="@+id/img"
+            android:layout_toEndOf="@+id/img"
+            android:gravity="center_vertical"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/ic_email_"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginRight="20dp"/>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/box_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_below="@+id/box_2">
+
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/ic_ring_"
+            android:layout_marginRight="20dp"/>
+
+
+        <TextView
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:text="Resetta suono notifica"
+            style="@style/TextViewStyle"
+            android:layout_toRightOf="@+id/img2"
+            android:layout_toEndOf="@+id/img2"
+            android:gravity="center_vertical"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
