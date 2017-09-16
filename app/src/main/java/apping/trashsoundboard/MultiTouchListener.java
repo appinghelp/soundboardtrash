@@ -16,6 +16,7 @@ import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
 import android.view.ViewGroup.MarginLayoutParams;
 import android.view.Window;
+import android.widget.Adapter;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
@@ -27,7 +28,6 @@ public class MultiTouchListener implements OnTouchListener
     private float mPrevX;
     private float mPrevY;
 
-    MediaPlayer mp;
 
     Activity context;
     int actionBarHeight;
@@ -44,14 +44,14 @@ public class MultiTouchListener implements OnTouchListener
     boolean clickCancelled = false;
     SharedPreferences prefs;
 
-    View view2;
+    AdapterGridPagina adapter;
 
 
 
 
-    public MultiTouchListener(MediaPlayer mp, Activity context, View view) {
-        this.mp = mp;
+    public MultiTouchListener(Activity context, View view, AdapterGridPagina adapterGridPagina) {
         this.context = context;
+        this.adapter = adapterGridPagina;
 
         prefs = this.context.getSharedPreferences(PREF, MODE_PRIVATE);
         int marginleft = prefs.getInt("marginleft", 200);
@@ -220,7 +220,7 @@ public class MultiTouchListener implements OnTouchListener
 
                 if (endTime - startTime < 500){
                     Log.d("multitouch","click");
-                    stopSound();
+                    adapter.stopSound();
                     Snackbar.make(view, "Tieni premuto il bottone stop per spostare", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
                     if (prefs.getBoolean("firstTime", true)){
@@ -238,15 +238,6 @@ public class MultiTouchListener implements OnTouchListener
         }
 
         return true;
-    }
-
-    public void stopSound(){
-        try{
-            mp.stop();
-            mp.release();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 
     Rect outRect = new Rect();

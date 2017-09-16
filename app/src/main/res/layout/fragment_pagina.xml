@@ -28,6 +28,7 @@
         android:layout_centerHorizontal="true" />
 
 
+
     <LinearLayout
         android:id="@+id/banner"
         android:layout_width="match_parent"

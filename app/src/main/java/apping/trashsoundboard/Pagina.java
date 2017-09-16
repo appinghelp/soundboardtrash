@@ -1,5 +1,6 @@
 package apping.trashsoundboard;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
@@ -23,12 +24,12 @@ public class Pagina extends Fragment {
     GridView gridView;
     int position;
     String autore;
-    ImageView sfondo;
-    ImageButton bn_stop;
     MultiTouchListener touchListener;
-    Context context;
+    ImageView sfondo;
+    Activity context;
     AdapterGridPagina adapter;
     private AdView mAdView;
+    ImageButton bn_stop;
 
 
     @Override
@@ -36,7 +37,7 @@ public class Pagina extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_pagina, container, false);
 
-        context = getActivity().getApplicationContext();
+        context = getActivity();
 
 
         position = getArguments().getInt("pos");
@@ -46,10 +47,11 @@ public class Pagina extends Fragment {
         adapter = new AdapterGridPagina(getActivity(), xml.selectAllNome(autore), xml.selectAllFilesuono(autore), autore);
 
         sfondo = rootView.findViewById(R.id.sfondo);
-        bn_stop = rootView.findViewById(R.id.bn_stop);
         gridView = rootView.findViewById(R.id.lista_suoni);
+        bn_stop = rootView.findViewById(R.id.bn_stop);
 
         ViewCompat.setElevation(bn_stop, 50);
+
 
         //Admob
         MobileAds.initialize(context,
@@ -59,8 +61,11 @@ public class Pagina extends Fragment {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
+        touchListener = new MultiTouchListener(context, bn_stop, adapter);
+
         bn_stop.setImageResource(R.drawable.ic_stop);
         bn_stop.setOnTouchListener(touchListener);
+
 
         gridView.setAdapter(adapter);
 

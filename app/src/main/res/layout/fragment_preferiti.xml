@@ -32,9 +32,9 @@
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:visibility="visible">
+        android:visibility="visible"
+        android:layout_above="@+id/ll_command">
 
         <!-- ADMOB -->
         <com.google.android.gms.ads.AdView
@@ -42,22 +42,47 @@
             android:id="@+id/adView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
             ads:adSize="BANNER"
             ads:adUnitId="@string/ads_banner">
         </com.google.android.gms.ads.AdView>
     </LinearLayout>
 
 
-    <ImageButton
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:padding="7dp"
-        android:background="@drawable/bn_circle_normal"
-        android:id="@+id/bn_stop"
-        android:elevation="20dp"/>
 
+
+
+    <LinearLayout
+        android:id="@+id/ll_command"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_item_gridview">
+
+        <ImageView
+            android:id="@+id/bn_casuale"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:padding="15dp"/>
+
+        <ImageView
+            android:id="@+id/bn_pause"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            app:srcCompat="@drawable/ic_pause"
+            android:padding="5dp"/>
+
+        <ImageView
+            android:id="@+id/bn_stop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            app:srcCompat="@drawable/ic_stop"
+            android:padding="5dp"/>
+
+    </LinearLayout>
 
 
 </RelativeLayout>

@@ -198,6 +198,16 @@ public class AdapterGridPagina extends ArrayAdapter<String> {
         }
     }
 
+    public boolean isPlaying(){
+        try{
+            return mp.isPlaying();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+
     public boolean shareSound(int ressound, String nameName, String soundName, String autorName){
 
         Log.d("Share", "Position: " + position);

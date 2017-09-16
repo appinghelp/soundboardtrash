@@ -45,14 +45,11 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
     XMLParser xml;
     AdapterGridPagina adapter;
 
-    ImageButton bn_stop;
-    MultiTouchListener touchListener;
 
-    public AdapterGridPreferiti(Activity context, ArrayList<String> autori, ImageButton bn_stop) {
+    public AdapterGridPreferiti(Activity context, ArrayList<String> autori) {
             super(context, R.layout.item_grid_preferiti, autori);
         this.autori = autori;
         this.context = context;
-        this.bn_stop = bn_stop;
 
         xml = new XMLParser(context);
 
@@ -91,10 +88,6 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
 
 
             adapter = new AdapterGridPagina(context, nomipref, suonipref, autore);
-
-            touchListener = new MultiTouchListener(adapter.mp, context, bn_stop);
-
-            bn_stop.setOnTouchListener(touchListener);
 
 
             Log.d("Pref", "Autore: " + autore);

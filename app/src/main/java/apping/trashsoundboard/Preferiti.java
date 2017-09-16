@@ -1,5 +1,6 @@
 package apping.trashsoundboard;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
@@ -25,35 +26,38 @@ public class Preferiti extends Fragment {
     ArrayList<String> autoripreferiti;
     GridView gridView;
     ImageView sfondo;
-    ImageButton bn_stop;
-    MultiTouchListener touchListener;
-    Context context;
+    Activity context;
     AdapterGridPreferiti adapter;
     private AdView mAdView;
     ManageFavorite manageFavorite;
 
+    ImageView stop;
+    ImageView pause;
+    ImageView casual;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_preferiti, container, false);
 
-        context = getActivity().getApplicationContext();
+        context = getActivity();
 
         manageFavorite = new ManageFavorite(context);
         xml = new XMLParser(getActivity().getApplicationContext());
 
+
         autoripreferiti = xml.selectAllPrefAutori();
 
-        adapter = new AdapterGridPreferiti(getActivity(), autoripreferiti, bn_stop);
 
         Log.d("Pref", "tutti gli autori: "+ autoripreferiti);
 
         sfondo = rootView.findViewById(R.id.sfondo);
-        bn_stop = rootView.findViewById(R.id.bn_stop);
         gridView = rootView.findViewById(R.id.lista_suoni);
+        stop = rootView.findViewById(R.id.bn_stop);
+        pause = rootView.findViewById(R.id.bn_pause);
+        casual = rootView.findViewById(R.id.bn_casuale);
 
-        ViewCompat.setElevation(bn_stop, 50);
+        adapter = new AdapterGridPreferiti(context, autoripreferiti);
 
         //Admob
         MobileAds.initialize(context,
@@ -63,14 +67,40 @@ public class Preferiti extends Fragment {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        bn_stop.setImageResource(R.drawable.ic_stop);
-        bn_stop.setOnTouchListener(touchListener);
 
         gridView.setAdapter(adapter);
 
         //new CustomActionBar(((AppCompatActivity)getActivity()).getSupportActionBar(), getActivity().getApplicationContext(), getFragmentManager()).setTitle(autore);
 
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Preferiti");
+
+        stop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                adapter.adapter.stopSound();
+            }
+        });
+
+        pause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("PAUSE", ""+adapter.adapter.isPlaying());
+                if (adapter.adapter.isPlaying()){
+                    adapter.adapter.mp.pause();
+                    pause.setImageResource(R.drawable.ic_play);
+                } else{
+                    adapter.adapter.mp.start();
+                    pause.setImageResource(R.drawable.ic_pause);
+                }
+            }
+        });
+
+        casual.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
 
 
