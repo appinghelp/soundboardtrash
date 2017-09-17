@@ -57,14 +57,15 @@
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/bg_item_gridview">
+        android:background="@color/colorPrimary">
 
         <ImageView
             android:id="@+id/bn_casuale"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.3"
-            android:padding="15dp"/>
+            android:padding="6dp"
+            app:srcCompat="@drawable/ic_random"/>
 
         <ImageView
             android:id="@+id/bn_pause"

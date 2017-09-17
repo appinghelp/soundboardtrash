@@ -57,7 +57,7 @@ public class Preferiti extends Fragment {
         pause = rootView.findViewById(R.id.bn_pause);
         casual = rootView.findViewById(R.id.bn_casuale);
 
-        adapter = new AdapterGridPreferiti(context, autoripreferiti, stop, pause);
+        adapter = new AdapterGridPreferiti(context, autoripreferiti, stop, pause, casual);
 
         //Admob
         MobileAds.initialize(context,

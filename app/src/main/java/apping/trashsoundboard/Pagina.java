@@ -18,6 +18,8 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
+import java.util.Random;
+
 public class Pagina extends Fragment {
 
     XMLParser xml;
@@ -31,6 +33,9 @@ public class Pagina extends Fragment {
     private AdView mAdView;
     ImageButton bn_stop;
 
+    ImageView stop;
+    ImageView pause;
+    ImageView random;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -49,6 +54,9 @@ public class Pagina extends Fragment {
         sfondo = rootView.findViewById(R.id.sfondo);
         gridView = rootView.findViewById(R.id.lista_suoni);
         bn_stop = rootView.findViewById(R.id.bn_stop);
+        stop = rootView.findViewById(R.id.bn_stopp);
+        pause = rootView.findViewById(R.id.bn_pause);
+        random = rootView.findViewById(R.id.bn_casuale);
 
         ViewCompat.setElevation(bn_stop, 50);
 
@@ -61,10 +69,10 @@ public class Pagina extends Fragment {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
-        touchListener = new MultiTouchListener(context, bn_stop, adapter);
+        //touchListener = new MultiTouchListener(context, bn_stop, adapter);
 
         bn_stop.setImageResource(R.drawable.ic_stop);
-        bn_stop.setOnTouchListener(touchListener);
+        //bn_stop.setOnTouchListener(touchListener);
 
 
         gridView.setAdapter(adapter);
@@ -73,7 +81,45 @@ public class Pagina extends Fragment {
 
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(autore);
 
+        AudioPlay audioPlay = new AudioPlay();
 
+        random.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                audioPlay.stopAudio();
+                int min = 0;
+                int max =  xml.selectAllFilesuono(autore).size()-1;
+
+                Random r = new Random();
+                int i = r.nextInt(max - min + 1) + min;
+
+                int sound = context.getResources().getIdentifier( xml.selectAllFilesuono(autore).get(i), "raw", context.getPackageName());
+
+                new AudioPlay().playAudio(context, sound);
+            }
+        });
+
+        stop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                audioPlay.stopAudio();
+                pause.setImageResource(R.drawable.ic_play);
+            }
+        });
+
+        pause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (audioPlay.isPlaying){
+                    audioPlay.pauseAudio();
+                    pause.setImageResource(R.drawable.ic_play);
+                } else{
+                    audioPlay.continueAudio();
+                    pause.setImageResource(R.drawable.ic_pause);
+                }
+            }
+        });
 
         return rootView;
 

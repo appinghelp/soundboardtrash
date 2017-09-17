@@ -34,6 +34,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class AdapterGridPreferiti extends ArrayAdapter<String> {
 
@@ -48,13 +49,15 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
 
     ImageView stop;
     ImageView pause;
+    ImageView random;
 
-    public AdapterGridPreferiti(Activity context, ArrayList<String> autori, ImageView stop, ImageView pause) {
+    public AdapterGridPreferiti(Activity context, ArrayList<String> autori, ImageView stop, ImageView pause, ImageView random) {
             super(context, R.layout.item_grid_preferiti, autori);
         this.autori = autori;
         this.context = context;
         this.stop = stop;
         this.pause = pause;
+        this.random = random;
 
         xml = new XMLParser(context);
 
@@ -97,10 +100,27 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
 
             AudioPlay audioPlay = new AudioPlay();
 
+            random.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    audioPlay.stopAudio();
+                    int min = 0;
+                    int max = suonipref.size()-1;
+
+                    Random r = new Random();
+                    int i = r.nextInt(max - min + 1) + min;
+
+                    int sound = context.getResources().getIdentifier(suonipref.get(i), "raw", context.getPackageName());
+
+                    new AudioPlay().playAudio(context, sound);
+                }
+            });
+
             stop.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     audioPlay.stopAudio();
+                    pause.setImageResource(R.drawable.ic_play);
                 }
             });
 
