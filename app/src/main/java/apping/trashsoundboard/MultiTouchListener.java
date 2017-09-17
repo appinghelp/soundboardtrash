@@ -220,7 +220,7 @@ public class MultiTouchListener implements OnTouchListener
 
                 if (endTime - startTime < 500){
                     Log.d("multitouch","click");
-                    adapter.stopSound();
+                    new AudioPlay().stopAudio();
                     Snackbar.make(view, "Tieni premuto il bottone stop per spostare", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
                     if (prefs.getBoolean("firstTime", true)){

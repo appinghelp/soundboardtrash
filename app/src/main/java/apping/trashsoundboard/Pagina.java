@@ -85,8 +85,7 @@ public class Pagina extends Fragment {
     public void onDestroy() {
         super.onDestroy();
         try {
-            adapter.mp.stop();
-            adapter.mp.reset();
+            new AudioPlay().stopAudio();
         } catch (Exception e) {
             e.printStackTrace();
         }

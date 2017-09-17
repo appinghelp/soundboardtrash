@@ -57,7 +57,7 @@ public class Preferiti extends Fragment {
         pause = rootView.findViewById(R.id.bn_pause);
         casual = rootView.findViewById(R.id.bn_casuale);
 
-        adapter = new AdapterGridPreferiti(context, autoripreferiti);
+        adapter = new AdapterGridPreferiti(context, autoripreferiti, stop, pause);
 
         //Admob
         MobileAds.initialize(context,
@@ -74,26 +74,6 @@ public class Preferiti extends Fragment {
 
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Preferiti");
 
-        stop.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                adapter.adapter.stopSound();
-            }
-        });
-
-        pause.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.d("PAUSE", ""+adapter.adapter.isPlaying());
-                if (adapter.adapter.isPlaying()){
-                    adapter.adapter.mp.pause();
-                    pause.setImageResource(R.drawable.ic_play);
-                } else{
-                    adapter.adapter.mp.start();
-                    pause.setImageResource(R.drawable.ic_pause);
-                }
-            }
-        });
 
         casual.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,8 +96,7 @@ public class Preferiti extends Fragment {
     public void onDestroy() {
         super.onDestroy();
         try {
-            adapter.adapter.mp.stop();
-            adapter.adapter.mp.reset();
+            new AudioPlay().stopAudio();
         } catch (Exception e) {
             e.printStackTrace();
         }

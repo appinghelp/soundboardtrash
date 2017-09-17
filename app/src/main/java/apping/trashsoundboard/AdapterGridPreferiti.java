@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.media.Image;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -45,13 +46,18 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
     XMLParser xml;
     AdapterGridPagina adapter;
 
+    ImageView stop;
+    ImageView pause;
 
-    public AdapterGridPreferiti(Activity context, ArrayList<String> autori) {
+    public AdapterGridPreferiti(Activity context, ArrayList<String> autori, ImageView stop, ImageView pause) {
             super(context, R.layout.item_grid_preferiti, autori);
         this.autori = autori;
         this.context = context;
+        this.stop = stop;
+        this.pause = pause;
 
         xml = new XMLParser(context);
+
 
     }
 
@@ -88,6 +94,28 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
 
 
             adapter = new AdapterGridPagina(context, nomipref, suonipref, autore);
+
+            AudioPlay audioPlay = new AudioPlay();
+
+            stop.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    audioPlay.stopAudio();
+                }
+            });
+
+            pause.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if (audioPlay.isPlaying){
+                        audioPlay.pauseAudio();
+                        pause.setImageResource(R.drawable.ic_play);
+                    } else{
+                        audioPlay.continueAudio();
+                        pause.setImageResource(R.drawable.ic_pause);
+                    }
+                }
+            });
 
 
             Log.d("Pref", "Autore: " + autore);

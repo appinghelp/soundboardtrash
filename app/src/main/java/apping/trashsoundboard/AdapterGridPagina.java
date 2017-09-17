@@ -40,7 +40,6 @@ public class AdapterGridPagina extends ArrayAdapter<String> {
     private final ArrayList<String> filesuono;
     private final String autore;
 
-    public MediaPlayer mp;
     int oldpos = -1;
     int newpos = -1;
 
@@ -99,34 +98,31 @@ public class AdapterGridPagina extends ArrayAdapter<String> {
             public void onClick(View v) {
                 oldpos = newpos;
                 newpos = position;
+                AudioPlay audioPlay = new AudioPlay();
 
                 try {
 
                     if (oldpos == newpos) {
-                        if (mp.isPlaying()) {
-                            mp.stop();
-                            mp.release();
-
+                        if (audioPlay.isPlaying) {
+                            audioPlay.stopAudio();
                         } else {
                             int sound = context.getResources().getIdentifier(filesuono.get(position), "raw", context.getPackageName());
-                            mp = MediaPlayer.create(context, sound);
-                            mp.start();
+                            audioPlay.playAudio(context, sound);
                         }
                     } else {
-                        if (mp.isPlaying()) {
-                            mp.stop();
-                            mp.release();
+                        if (audioPlay.isPlaying) {
+                            audioPlay.stopAudio();
                         }
                         int sound = context.getResources().getIdentifier(filesuono.get(position), "raw", context.getPackageName());
-                        mp = MediaPlayer.create(context, sound);
-                        mp.start();
+                        audioPlay.playAudio(context, sound);
+
                     }
 
                 } catch (Exception e) {
                     e.printStackTrace();
                     int sound = context.getResources().getIdentifier(filesuono.get(position), "raw", context.getPackageName());
-                    mp = MediaPlayer.create(context, sound);
-                    mp.start();
+                    audioPlay.playAudio(context, sound);
+
                 }
 
             }
@@ -186,25 +182,6 @@ public class AdapterGridPagina extends ArrayAdapter<String> {
 
 
         return rowView;
-    }
-
-
-    public void stopSound(){
-        try{
-            mp.stop();
-            mp.release();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public boolean isPlaying(){
-        try{
-            return mp.isPlaying();
-        } catch (Exception e) {
-            e.printStackTrace();
-            return false;
-        }
     }
 
 
