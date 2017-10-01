@@ -99,7 +99,7 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
             adapter = new AdapterGridPagina(context, nomipref, suonipref, autore);
 
             AudioPlay audioPlay = new AudioPlay();
-
+            audioPlay.setListener(pause);
 
             random.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -138,6 +138,7 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
                     }
                 }
             });
+
 
             holder.titolo.setText(autore);
             holder.gridView.setAdapter(adapter);
