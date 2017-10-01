@@ -48,17 +48,17 @@ public class Prima extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_prima, container, false);
 
-        Bundle args = getArguments();
-        autori = args.getStringArrayList("autori");
+
 
         gridView = rootView.findViewById(R.id.lista_autori);
 
         context = getActivity().getApplicationContext();
         xml = new XMLParser(getActivity().getApplicationContext());
 
+        autori = xml.selectAllAutore();
         sfondi = xml.selectAllSfondi();
 
-                settings = getActivity().getSharedPreferences("TrashSoundBoard", 0);
+        settings = getActivity().getSharedPreferences("TrashSoundBoard", 0);
 
         //Admob
         MobileAds.initialize(context,
@@ -110,9 +110,8 @@ public class Prima extends Fragment {
 
         //customActionBar = new CustomActionBar(((AppCompatActivity)getActivity()).getSupportActionBar(), getActivity().getApplicationContext(), getFragmentManager());
 
-
-
         adapterGridPrima = new AdapterGridPrima(getActivity(), autori, sfondi);
+
 
         gridView.setAdapter(adapterGridPrima);
 

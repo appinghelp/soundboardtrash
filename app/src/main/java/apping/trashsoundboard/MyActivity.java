@@ -231,7 +231,6 @@ public class MyActivity extends AppCompatActivity
     }
     @Override
     public void onBackPressed() {
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
@@ -243,14 +242,14 @@ public class MyActivity extends AppCompatActivity
 
                 android.app.FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, newInstancePrima(autori))
+                        .replace(R.id.container, newInstancePrima(xml.selectAllAutore()))
                         .commit();
 
             } else if (currentFragment instanceof Preferiti) {
 
                 android.app.FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction()
-                        .replace(R.id.container, newInstancePrima(autori))
+                        .replace(R.id.container, newInstancePrima(xml.selectAllAutore()))
                         .commit();
 
             } else {
@@ -270,9 +269,6 @@ public class MyActivity extends AppCompatActivity
 
     public static Prima newInstancePrima(ArrayList<String> autori) {
         Prima fragment = new Prima();
-        Bundle args = new Bundle();
-        args.putStringArrayList("autori", autori);
-        fragment.setArguments(args);
         return fragment;
     }
 

@@ -75,12 +75,6 @@ public class Preferiti extends Fragment {
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle("Preferiti");
 
 
-        casual.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
 
 
 

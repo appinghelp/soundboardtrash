@@ -100,17 +100,19 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
 
             AudioPlay audioPlay = new AudioPlay();
 
+
             random.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
+
                     audioPlay.stopAudio();
                     int min = 0;
-                    int max = suonipref.size()-1;
+                    int max =  xml.selectAllFilesuono(autore).size()-1;
 
                     Random r = new Random();
                     int i = r.nextInt(max - min + 1) + min;
 
-                    int sound = context.getResources().getIdentifier(suonipref.get(i), "raw", context.getPackageName());
+                    int sound = context.getResources().getIdentifier( xml.selectAllFilesuono(autore).get(i), "raw", context.getPackageName());
 
                     new AudioPlay().playAudio(context, sound);
                 }
@@ -136,13 +138,6 @@ public class AdapterGridPreferiti extends ArrayAdapter<String> {
                     }
                 }
             });
-
-
-            Log.d("Pref", "Autore: " + autore);
-            Log.d("Pref", "Nomi autore: " + nomipref);
-            Log.d("Pref", "Suoni autore: " + suonipref);
-
-            Log.d("Pref", "size: " + suonipref.size());
 
             holder.titolo.setText(autore);
             holder.gridView.setAdapter(adapter);

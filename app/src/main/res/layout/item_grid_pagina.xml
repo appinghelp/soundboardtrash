@@ -19,6 +19,14 @@
         android:layout_height="match_parent"
         android:background="@drawable/bg_item_gridview">
 
+        <View
+            android:id="@+id/testoc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/testo"
+            android:layout_toLeftOf="@+id/pref"
+            android:layout_toStartOf="@+id/pref" />
+
         <ImageView
             android:id="@+id/pref"
             android:layout_width="20dp"
@@ -30,17 +38,17 @@
 
 
 
-            <apping.trashsoundboard.AutofitTextView
-                style="@style/TextViewStyle"
-                android:textSize="13sp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:id="@+id/testo"
-                android:text="Che sei drogato"
-                android:gravity="center"
-                android:layout_below="@+id/pref"
-                android:layout_above="@+id/topBar"/>
+        <apping.trashsoundboard.AutofitTextView
+            style="@style/TextViewStyle"
+            android:textSize="13sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/testo"
+            android:text="Che sei drogato"
+            android:gravity="center"
+            android:layout_below="@+id/pref"
+            android:layout_above="@+id/topBar"/>
 
 
 

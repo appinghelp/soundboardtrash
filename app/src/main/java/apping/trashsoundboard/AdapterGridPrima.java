@@ -41,7 +41,9 @@ public class AdapterGridPrima extends ArrayAdapter<String> {
         ImageView img = rowView.findViewById(R.id.img_autore);
 
         testo.setText(autori.get(position));
-        int res = context.getResources().getIdentifier(sfondi.get(position), "drawable", context.getPackageName());
+        int res = context.getResources().getIdentifier(
+                sfondi.get(position),
+                "drawable", context.getPackageName());
 
         Glide.with(context).load(res).into(img);
 

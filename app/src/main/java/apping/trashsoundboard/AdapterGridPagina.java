@@ -76,6 +76,7 @@ public class AdapterGridPagina extends ArrayAdapter<String> {
         manageFavorite = new ManageFavorite(context);
 
         TextView testo = rowView.findViewById(R.id.testo);
+        View testoc = rowView.findViewById(R.id.testoc);
         ImageView share = rowView.findViewById(R.id.share);
         ImageView download = rowView.findViewById(R.id.download);
         ImageView sfondo = rowView.findViewById(R.id.sfondo);
@@ -94,6 +95,41 @@ public class AdapterGridPagina extends ArrayAdapter<String> {
         this.position = position;
 
         testo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                oldpos = newpos;
+                newpos = position;
+                AudioPlay audioPlay = new AudioPlay();
+
+                try {
+
+                    if (oldpos == newpos) {
+                        if (audioPlay.isPlaying) {
+                            audioPlay.stopAudio();
+                        } else {
+                            int sound = context.getResources().getIdentifier(filesuono.get(position), "raw", context.getPackageName());
+                            audioPlay.playAudio(context, sound);
+                        }
+                    } else {
+                        if (audioPlay.isPlaying) {
+                            audioPlay.stopAudio();
+                        }
+                        int sound = context.getResources().getIdentifier(filesuono.get(position), "raw", context.getPackageName());
+                        audioPlay.playAudio(context, sound);
+
+                    }
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    int sound = context.getResources().getIdentifier(filesuono.get(position), "raw", context.getPackageName());
+                    audioPlay.playAudio(context, sound);
+
+                }
+
+            }
+        });
+
+        testoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 oldpos = newpos;

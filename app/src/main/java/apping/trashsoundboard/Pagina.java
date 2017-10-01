@@ -3,9 +3,11 @@ package apping.trashsoundboard;
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v4.view.ViewCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,6 +52,7 @@ public class Pagina extends Fragment {
 
         xml = new XMLParser(getActivity().getApplicationContext());
         adapter = new AdapterGridPagina(getActivity(), xml.selectAllNome(autore), xml.selectAllFilesuono(autore), autore);
+        AudioPlay audioPlay = new AudioPlay();
 
         sfondo = rootView.findViewById(R.id.sfondo);
         gridView = rootView.findViewById(R.id.lista_suoni);
@@ -57,6 +60,8 @@ public class Pagina extends Fragment {
         stop = rootView.findViewById(R.id.bn_stopp);
         pause = rootView.findViewById(R.id.bn_pause);
         random = rootView.findViewById(R.id.bn_casuale);
+
+        audioPlay.setListener(pause);
 
         ViewCompat.setElevation(bn_stop, 50);
 
@@ -81,7 +86,6 @@ public class Pagina extends Fragment {
 
         ((AppCompatActivity)getActivity()).getSupportActionBar().setTitle(autore);
 
-        AudioPlay audioPlay = new AudioPlay();
 
         random.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -120,6 +124,7 @@ public class Pagina extends Fragment {
                 }
             }
         });
+
 
         return rootView;
 
